@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background-color: #cecece;
+}
+
+
+.col {
+  width: 40%;
+  height:80%
+  border: 10px solid green;
+
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sx {
+  float:left;
+  width: 40%;
+
+}
+
+.dx {
+  float:right;
+  width: 60%;
+}
+
+/* INIZIO ID CONTAINER*/
+.id_container {
+  width: 400px;
+  background-color: white;
+  border-radius: 3%;
+  height: 400px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin: auto;
+  left: 140px;
+  transform: translateY(20px);
+}
+
+.user {
+  width: 100%;
+}
+
+.id_container > h2 {
+  text-align: center;
+  padding: 20px;
+  color: #b23203;
+  font-family: sans-serif;
+}
+
+.id_container > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.id_container > p {
+  padding: 5px 40px;
+  text-align: justify;
+}
+
+.id_container > button {
+  font-size: 22px;
+  padding: 5px;
+  background-color: #ce4310;
+  color: white;
+  position: relative;
+  left: 120px;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+
+
+
+/*FINE ID CONTAINER*/
+
+footer {
+  padding: 30px 60px;
+  widht: 100vw;
+  height: 15vh;
+  border-top: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.col {
+  float: left;
+  width: 40%;
+  height: 450px;
+}
+
+.dx {
+  width: 60%;
+  position: relative;
+}
+
+.sx {
+  width: 40%;
+  position: relative;
+}
+
+.foto {
+  background-image: url('img/user.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -70%);
+}
+.container h2 {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, 250%);
+}
+
+.container {
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 2%;
+  position: relative;
+}
+
+.super_container {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.id,
+.social {
+  width: 350px;
+  height: 300px;
+}
+.social {
+  height: 100px;
+}
+
+.fb_logo,
+.ig_logo,
+.mail_logo {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  display: inline-block;
+  margin: auto;
+}
+.social_block {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.container_id {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.info_container {
+  width:600px;
+  height: 420px;
+  background-color: white;
+  border-radius: 2%;
+  position: absolute;
+  margin-top: 7px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  background-color: white;
+  border-radius: 2%;
+  width: 1110px;
+  height: 80px;
+  padding: 30px 60px;
+  margin:auto;
+  margin-top: 10px;
+}
+
+main:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+*/
